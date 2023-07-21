@@ -1,0 +1,1 @@
+model_type_dict = {'EncoderToLogNormal':1, 'EncoderToDirichlet':2, 'EncoderToLaplace':3, 'EncoderToGamma':4}

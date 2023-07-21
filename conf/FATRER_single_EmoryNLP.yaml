@@ -1,0 +1,24 @@
+model:
+  base_model: "DialogueTRM_Hierarchical_with_topic_hard_with_kl_1"
+  dataset: "iemocap"
+  seed: 5
+  dataset_path: "data/emorynlp_with_dev.pkl"
+  vocab_path: "data/emorynlp_with_dev.vocab.pkl"
+  bert_path: "bert-base-uncased"
+  interactions: "gate"
+  context_type: "tgt"
+  model_name: "single"
+  win_cont: 14
+  batch_size: 7
+  epochs: 500 # training epoch
+  lr: 2e-6
+  eps: 1e-8
+  warmup_steps_ratio: 0
+  topic: 50 # topic num
+attack:
+  num_examples: 200 # The number of examples to attack. -1 for entire dataset. 
+  attack_epoch: 50  # conduct adversarial attacks per 50 epoch
+  attack_random_seed: 10 # random seed for adversarial attack
+  recipe: "PWWSRen2019" #attack method
+  if_attack: False
+  #query_budget: 110 # The maximum number of model queries allowed per example attacked.
