@@ -8,7 +8,7 @@ FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational 
 
 ## Benchmark Datasets
 ###  Generalization results on four datasets
-![fater_demo](./images/demo.png)
+![fater_demo](./images/table1.png)
 ### IEMOCAP
 - FARTER-Multi: 
   - train: 
