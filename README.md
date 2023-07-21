@@ -3,7 +3,7 @@ FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational 
 
 ## Environment
 - prepare environment:
-    pip instll -r requirements.txt
+  -  pip instll -r requirements.txt
 
 ## Benchmark Datasets
 ### IEMOCAP
