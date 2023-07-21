@@ -1,11 +1,14 @@
 # FATRER
 FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition
-
+## Framework
+![fater_demo](./images/demo.png)
 ## Environment
 - prepare environment:
   -  pip instll -r requirements.txt
 
 ## Benchmark Datasets
+###  Generalization results on four datasets
+![fater_demo](./images/demo.png)
 ### IEMOCAP
 - FARTER-Multi: 
   - train: 
