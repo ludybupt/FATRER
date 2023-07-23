@@ -9,7 +9,10 @@ models, and gain convincing robustness.
 
 ![fater_demo](./images/demo.png)
 ## Environment
-``` shell
+### Prerequisites
+- Python 3.9.12
+- Pytorch 1.10.1+cu113
+``` ruby
   pip instll -r requirements.txt
 ```
 ## Benchmark Datasets
@@ -18,7 +21,7 @@ models, and gain convincing robustness.
 ![fater_demo](./images/table1.png)
 ### IEMOCAP
 1. FARTER-Multi: 
-``` shell
+``` ruby
     # train
     python main.py conf/FATRER_multi.yaml
 
@@ -32,27 +35,27 @@ models, and gain convincing robustness.
     python main.py conf/FATRER_multi_textbugger_attack.yaml
 ```
 2. FARTER-Multi(without topic-oriented regularization):
-``` shell
+``` ruby
     # train
     python main.py conf/FATRER_multi_wo_topic.yaml
 ```
 3. FARTER-Single: 
-``` shell
+``` ruby
     # train
     python main.py conf/FATRER_single.yaml
 ``` 
 4. FARTER-Single(without topic-oriented regularization): 
-``` shell
+``` ruby
     #train
     python main.py conf/FATRER_single_wo_topic.yaml
 ``` 
 5. DialTRM(Baseline): 
-``` shell
+``` ruby
     #train
     python main.py conf/Baseline.yaml
 ``` 
 6. VAE(topic-oriented)
-``` shell
+``` ruby
   #train VAE(Laplace)
   python main.py conf/VAE_Laplace.yaml
 
@@ -67,30 +70,30 @@ models, and gain convincing robustness.
 ``` 
 ### MELD
 1. FARTER-Multi: 
-``` shell
+``` ruby
     python main.py conf/FATRER_multi_MELD.yaml
 ``` 
 2. FARTER-Single: 
-``` shell
+``` ruby
     python main.py conf/FATRER_single_MELD.yaml
 ``` 
 ### EmoryNLP
 1. FARTER-Multi: 
-``` shell
+``` ruby
     python main.py conf/FATRER_multi_EmoryNLP.yaml
 ```
 2. FARTER-Single: 
-``` shell
+``` ruby
     python main.py conf/FATRER_single_EmoryNLP.yaml
 ```
 
 ### DailyDialog
 1. FARTER-Multi: 
-``` shell
+``` ruby
     python main.py conf/FATRER_multi_DailyDialog.yaml
 ```
 2. FARTER-Single: 
-``` shell
+``` ruby
     python main.py conf/FATRER_single_DailyDialog.yaml
 ```
 ## Cite us
