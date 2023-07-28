@@ -1,3 +1,4 @@
+[![Page Views Count](https://badges.toozhao.com/badges/01H6DP5J9EN57TWX753KQ0MR83/blue.svg)](https://badges.toozhao.com/stats/01H6DP5J9EN57TWX753KQ0MR83 "Get your own page views count badge on badges.toozhao.com")  ![GitHub](https://img.shields.io/github/license/ludybupt/FATRER?style=flat-square)
 # FATRER
 FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition[[paper]](https://arxiv.org/abs/2307.12221) 
 ## Framework
@@ -6,8 +7,9 @@ global view when modeling the local context in a conversation. A
 joint topic modeling strategy is introduced to implement regularization from both representation and loss perspectives. To avoid overregularization, FATRER drops the constraints on prior distributions that exist in traditional topic modeling and perform probabilistic approximations based entirely on attention alignment. Experiments show
 that FATRER obtain more favorable results than state-of-the-art
 models, and gain convincing robustness.
-
 ![fater_demo](./images/demo.png)
+## News
+- [**2023-07-15**]: FARTER has been accepted by ECAI 2023.
 ## Environment
 ### Prerequisites
 - Python 3.9.12
