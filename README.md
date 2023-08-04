@@ -10,8 +10,8 @@ models, and gain convincing robustness.
 ![fater_demo](./images/demo.png)
 ## News
 - [**2023-07-15**]: FARTER has been accepted by [ECAI 2023](https://ecai2023.eu/acceptedpapers).
-## Environment
-### Prerequisites
+
+## Prerequisites
 - Python 3.9.12
 - Pytorch 1.10.1+cu113
 ``` ruby
@@ -21,7 +21,8 @@ models, and gain convincing robustness.
 - IEMOCAP/MELD/EmoryNLP/EmoryNLP
 ###  Generalization results on four datasets
 ![fater_demo](./images/table1.png)
-### IEMOCAP
+###  Usage
+#### IEMOCAP
 1. FARTER-Multi: 
 ``` ruby
     # train
@@ -70,7 +71,7 @@ models, and gain convincing robustness.
   #train VAE(LogNormal)
   python main.py conf/VAE_LogNormal.yaml
 ``` 
-### MELD
+#### MELD
 1. FARTER-Multi: 
 ``` ruby
     python main.py conf/FATRER_multi_MELD.yaml
@@ -79,7 +80,7 @@ models, and gain convincing robustness.
 ``` ruby
     python main.py conf/FATRER_single_MELD.yaml
 ``` 
-### EmoryNLP
+#### EmoryNLP
 1. FARTER-Multi: 
 ``` ruby
     python main.py conf/FATRER_multi_EmoryNLP.yaml
@@ -89,7 +90,7 @@ models, and gain convincing robustness.
     python main.py conf/FATRER_single_EmoryNLP.yaml
 ```
 
-### DailyDialog
+#### DailyDialog
 1. FARTER-Multi: 
 ``` ruby
     python main.py conf/FATRER_multi_DailyDialog.yaml
@@ -110,4 +111,4 @@ Cite this paper, if you use FARTER in your research publication.
 ```
 
 ## License
-BSD 3-Clause License
+MIT license
