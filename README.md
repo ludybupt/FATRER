@@ -9,7 +9,7 @@ that FATRER obtain more favorable results than state-of-the-art
 models, and gain convincing robustness.
 ![fater_demo](./images/demo.png)
 ## News
-- [**2023-07-15**]: FARTER has been accepted by ECAI 2023.
+- [**2023-07-15**]: FARTER has been accepted by [ECAI 2023](https://ecai2023.eu/acceptedpapers).
 ## Environment
 ### Prerequisites
 - Python 3.9.12
@@ -101,11 +101,10 @@ models, and gain convincing robustness.
 ## Cite us
 Cite this paper, if you use FARTER in your research publication.
 ```
-@inproceedings{mao2023fatrer,
+@article{mao2023fatrer,
   title={FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition},
-  author={Yuzao , Mao and Di, Lu and Xiaojie, Wang and Yang, Zhang},
-  booktitle={ECAI},
-  pages={0--1},
+  author={Mao, Yuzhao and Lu, Di and Wang, Xiaojie and Zhang, Yang},
+  journal={arXiv preprint arXiv:2307.12221},
   year={2023}
 }
 ```
