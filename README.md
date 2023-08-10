@@ -2,7 +2,7 @@
 # FATRER
 FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition[[paper]](https://arxiv.org/abs/2307.12221) 
 ## Framework
-Full-attention topic regularizer(FATRER) enables an emotion-related
+Full-attention topic regularizer(FATRER) introduces an emotion-related
 global view when modeling the local context in a conversation. A
 joint topic modeling strategy is introduced to implement regularization from both representation and loss perspectives. To avoid overregularization, FATRER drops the constraints on prior distributions that exist in traditional topic modeling and perform probabilistic approximations based entirely on attention alignment. Experiments show
 that FATRER obtain more favorable results than state-of-the-art
