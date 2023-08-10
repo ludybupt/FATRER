@@ -17,11 +17,12 @@ models, and gain convincing robustness.
 ``` ruby
   pip instll -r requirements.txt
 ```
-## Benchmark Datasets
+## Usage
+### Benchmark Datasets
 - IEMOCAP/MELD/EmoryNLP/EmoryNLP
 ###  Generalization results on four datasets
 ![fater_demo](./images/table1.png)
-###  Usage
+###  Execution
 #### IEMOCAP
 1. FARTER-Multi: 
 ``` ruby
@@ -100,7 +101,7 @@ models, and gain convincing robustness.
     python main.py conf/FATRER_single_DailyDialog.yaml
 ```
 ## Cite us
-Cite this paper, if you use FARTER in your research publication.
+Please cite the following paper if you find this code useful in your work.
 ```
 @article{mao2023fatrer,
   title={FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition},
