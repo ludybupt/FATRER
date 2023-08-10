@@ -9,7 +9,7 @@ that FATRER obtain more favorable results than state-of-the-art
 models, and gain convincing robustness.
 ![fater_demo](./images/demo.png)
 ## News
-- [**2023-07-15**]: FARTER has been accepted by [ECAI 2023](https://ecai2023.eu/acceptedpapers).
+- [**2023-07-15**]: FARTER has been accepted by [ECAI 2023](https://ecai2023.eu/acceptedpapers) (Paper 223).
 
 ## Prerequisites
 - Python 3.9.12
