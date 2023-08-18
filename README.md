@@ -1,6 +1,6 @@
 [![Page Views Count](https://badges.toozhao.com/badges/01H6DP5J9EN57TWX753KQ0MR83/blue.svg)](https://badges.toozhao.com/stats/01H6DP5J9EN57TWX753KQ0MR83 "Get your own page views count badge on badges.toozhao.com")  ![GitHub](https://img.shields.io/github/license/ludybupt/FATRER?style=flat-square)
 # FATRER
-FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition[[paper]](https://arxiv.org/abs/2307.12221) 
+[ECAI 2023] Official Pytorch implementation of "FATRER: Full-Attention Topic Regularizer for Accurate and Robust Conversational Emotion Recognition" [[paper]](https://arxiv.org/abs/2307.12221) 
 ## Framework
 Full-attention topic regularizer(FATRER) introduces an emotion-related
 global view when modeling the local context in a conversation. A
