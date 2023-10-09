@@ -9,7 +9,7 @@ that FATRER obtain more favorable results than state-of-the-art
 models, and gain convincing robustness.
 ![fater_demo](./images/demo.png)
 ## News
-- [**2023-10-02**]: FARTER will be presented orally in ECAI2023([Programme](https://ecai2023.eu/programm)) Technical Session 1 at 09:30 AM in Room S4A and Poster Session 1 at 11:15 AM in Hall S3B([Poster](https://drive.google.com/file/d/1GSbm6Po223JmfjxDnQJ6O428-p83grze/view?usp=drive_link)).
+- [**2023-10-02**]: FARTER will be presented orally([Video](https://www.youtube.com/watch?v=421nOe7BO-Q)) in ECAI2023([Programme](https://ecai2023.eu/programm)) Technical Session 1 at 09:30 AM in Room S4A and Poster Session 1 at 11:15 AM in Hall S3B([Poster](https://drive.google.com/file/d/1GSbm6Po223JmfjxDnQJ6O428-p83grze/view?usp=drive_link)).
 - [**2023-07-15**]: FARTER has been accepted by [ECAI 2023](https://ecai2023.eu/acceptedpapers) (Paper 223).
 
 ## Prerequisites
